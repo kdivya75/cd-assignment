@@ -1,0 +1,26 @@
+:root{
+    --text-color: #3d3d3d;
+    --light-grey: #fafafa;
+    --shadow: #ccc;
+  }
+  
+.avatar{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    background-color: var(--shadow);
+}
+
+.linkText{
+    color:var(--text-color);
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.listItem:hover{
+    z-index: 1;
+    box-shadow: 0px 0px 10px var(--shadow);
+    background-color: var(--light-grey);
+}
